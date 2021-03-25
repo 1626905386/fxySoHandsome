@@ -35,6 +35,7 @@ public class firstServlet extends HttpServlet {
         out.println("</body></html>");*/
         System.out.println("初始化");
 
+        System.out.println("OK!");
         ServletContext ctxt =this.getServletContext();
 
         Integer count=(Integer) ctxt.getAttribute("count");
